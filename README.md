@@ -4,14 +4,19 @@
 # 文档
 
 1. 引入js：
+```
 <script src="jquery.min.js"></script>
 <script src="jquery.cropit.js"></script>
 <script src="jquery.cropit.package.js"></script>
+```
 
 2. 设置存放div
+```
 <div id="image-box"></div>
+```
 
 3. 设置cropit
+```
 <script type="text/javascript">
 // 按需求配置options
 options = {
@@ -35,6 +40,7 @@ options = {
 
 $('#id').initCropit(options);
 </script>
+```
 
 # 后台配件
 源码见：[cropit后台接收工具](https://github.com/Strangeen/cropit_back_end_component)
