@@ -97,7 +97,7 @@
 			// styles
 			'<style>',
 			'.cropit-preview {background:url("'+ options.backImgUrl +'") '+ options.backColor +' no-repeat;background-size:cover;border:'+ options.borderWidth +'px solid ' + options.borderColor + ';border-radius:'+ options.borderRadius +'px;width: '+ options.width +'px;height:'+ options.height +'px;}',
-			'.cropit-preview-image-container {border-radius:'+ (options.borderRadius - 2) +'px;}',
+			'.cropit-preview-image-container {border-radius:'+ (options.borderRadius - 4) +'px;}',
 			'.cropit-image-zoom-input {width:'+ options.width +'px;margin:10px 0;}',
 			'.cropit-preview-image-container {cursor: move;}',
 			'.export-btn, .select-img-btn {width:'+ (options.width < minBtnWidth ? options.width : (options.width - 10) / 2) +'px;height: 28px;}',
